@@ -1,0 +1,17 @@
+#jetDiv {
+  -webkit-backface-visibility: hidden;
+  -webkit-transform: translateZ(0) scale(1.0, 1.0);
+  transform: translateZ(0);
+}
+
+#jet {
+  animation: animateJet forwards 2s ease-in;
+  display:block;
+  width:100%;
+  transform:scale(0.1,0.1)
+}
+@keyframes animateJet{
+    100% {
+      transform: scale(1,1);
+    }
+}
