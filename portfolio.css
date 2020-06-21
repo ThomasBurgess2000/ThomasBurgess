@@ -32,6 +32,11 @@
   .navbar {
       margin-bottom:0px;
   }
+
+  .container-fluid{
+    overflow: hidden;
+    padding: 0px;
+    }
   /* #topText{
     position: absolute;
     top: 15%;
