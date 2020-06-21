@@ -5,7 +5,10 @@
 background-image: url("jet.png"),url("rays.png");
 
 /* Animation */
-animation: animateJet forwards 2s ease-in;
+animation-name: animateJet;
+animation-fill-mode:forwards;
+animation-duration: 2s;
+animation-timing-function: ease-in;
 
 /* Set a specific height */
 min-height: 200px;
@@ -24,7 +27,9 @@ max-width: 2160px;
     to {background-size: 700px,1000px;background-position: 50% 5%, 50% 0%;}
 }
 
-
+.navbar {
+    min-height:30px;
+}
 
 .navbar-default {
     background-color: white;
@@ -41,6 +46,8 @@ Title
 /* Link */
 .navbar-default .navbar-nav > li > a {
     color: black;
+    padding-top:10px;
+    padding-bottom:10px;
 }
 
 h1 {
