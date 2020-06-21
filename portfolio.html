@@ -1,44 +1,116 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <title>Thomas Burgess</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="portfolio.css">
     <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@900&display=swap" rel="stylesheet"> 
   </head>
   <body style="background-color:#EF3E36">
-    <nav class="navbar navbar-default" style="padding-left:5px;padding-right: 5px;">
-        <div class="container-fluid">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="#">Thomas Burgess</a>
-            </div>
-            <div class="collapse navbar-collapse" id="myNavbar">
-                <ul class="nav navbar-nav">
-                    <li><a href="ThomasBurgessResume.pdf">Resume</a></li>
-                    <li><a href="https://github.com/ThomasBurgess2000">GitHub</a></li>
-                    <li><a href="https://www.linkedin.com/in/jthomasburgess/">LinkedIn</a></li>
-                </ul>
-            </div>
+    <nav class="navbar navbar-expand-md bg-light navbar-light">
+        <a class='navbar-brand' href="#">Thomas Burgess</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="navbar-nav">
+                <li class="nav-item"><a class='nav-link' href="ThomasBurgessResume.pdf">Resume</a></li>
+                <li class="nav-item"><a class='nav-link' href="https://github.com/ThomasBurgess2000">GitHub</a></li>
+                <li class="nav-item"><a class='nav-link' href="https://www.linkedin.com/in/jthomasburgess/">LinkedIn</a></li>
+            </ul>
+        </div>
             
         </div>
 	</nav>
-    <div class='container-fluid' style="padding: 0px;">
+    <div>
         <div class="parallax"></div>
-        <div style="height:2000px;background-color:white;">
+        <div style="background-color:white;">
             <h1>PURSUING MISSIONS THAT MATTER</h1>
-            <div>
-                <p>Hi! My name is Thomas, and I am currently a software engineer intern at Lockheed Martin working on the F-35.</p>
-                <p>Feel free to check out summaries of some of my projects below or click the GitHub link at the top to dive straight into the code.</p>
-                <p>If you're working on something that is going to change the world, I want in. Check out my resume and see if I can add something to your team.</p>
-                <p>If you just want to connect, feel free to add me on LinkedIn or shoot me an email directly: <a href:"mailto:me@thomasburgess.org">me@thomasburgess.org</a>.</p>
+            <div class="codePara">
+                <p class="pCode">Hi! My name is Thomas, and I am currently a software engineer intern at Lockheed Martin working on the F-35.</p>
+                <p class="pCode">Feel free to check out summaries of some of my projects below or go to my<a href="https://github.com/ThomasBurgess2000"> GitHub</a> to dive straight into the code.</p>
+                <p class="pCode">If you're working on something that is going to change the world, I want in. Check out my<a href="ThomasBurgess.pdf"> resume</a> and see if I can add something to your team.</p>
+                <p class="pCode">If you just want to connect, feel free to add me on <a href="https://www.linkedin.com/in/jthomasburgess/">LinkedIn</a> or shoot me an email directly: <a href:"mailto:me@thomasburgess.org">me@thomasburgess.org</a>.</p>
             </div>
+            <br>
+            <div class="container-fluid">
+                <div class="row">
+                    <button onclick="document.location='https://github.com/ThomasBurgess2000/BiolaCRI'">
+                        <div class="col boxed">
+                            <h3><b>BiolaCRI</b> HTML, CSS, JavaScript, PHP, Apache Web Server, mySQL, jQuery</h3>
+                            <hr>
+                            <ul>
+                                <li>Portal to enter, edit, and search data stored in a cancer patient database.</li>
+                                <li>Created front and back end from scratch.</li> 
+                                <li>Hosted off-site and backed up locally.</li>
+                                <li>Commissioned by upcoming Biola Cancer Research Institute.</li>
+                            </ul>
+                        </div>
+                    </button>
+                    <button onclick="document.location='https://github.com/ThomasBurgess2000/FortWorthRealEstateData'">
+                        <div class="col boxed">
+                            <h3><b>FortWorthRealEstateData</b> Python (WIP)</h3>
+                            <hr>
+                            <ul>
+                                <li>Aggregates real estate data from different sources to gain insights into housing market.</li>
+                                <li>Takes all of the residential data from TAD and merges it with Redfin data (price, date sold, and square footage). You can then search this data.</li> 
+                                <li>Planning to add a regression model to predict Redfin sale price based on all other data.</li>
+                                <li>Planning to add a model to determine the factors that cause a large gap between Redfin sale prices and the appraised values.</li>
+                            </ul>
+                        </div>
+                    </button>
+                </div>
+                <div class="row">
+                    <button onclick="document.location='https://github.com/ThomasBurgess2000/UniversityDirectoryScraperV2'">
+                        <div class="col boxed">
+                            <h3><b>UniversityDirectoryScraperV2</b> Python, Selenium</h3>
+                            <hr>
+                            <ul>
+                                <li>Downloads names, emails, and images for everyone in directory--including those not listed.</li>
+                                <li>Identified directory design flaw that allowed anyone to view students who had requested totalconfidentiality and worked with university to make sure vulnerability was patched.</li> 
+                            </ul>
+                        </div>
+                    </button>
+                    <button onclick="document.location='https://github.com/ThomasBurgess2000/TimeTracker'">
+                        <div class="col boxed">
+                            <h3><b>TimeTracker</b> C++</h3>
+                            <hr>
+                            <ul>
+                                <li>Designed to track tasks as quickly as possible.</li>
+                                <li>Allows for easy, intuitive input: you can enter 7a, 700a, 700, or 7 to indicate 7:00 AM (on the last two it will prompt you for AM or PM).</li>
+                            </ul>
+                        </div>
+                    </button>
+                </div>
+                <div class="row">
+                    <button onclick="document.location='https://github.com/ThomasBurgess2000/BiolaFacialRecognition'">
+                        <div class="col boxed">
+                            <h3><b>BiolaFacialRecognition</b> Python</h3>
+                            <hr>
+                            <ul>
+                                <li>Searches the Biola directory for matches.</li>
+                                <li>Gradually increases similarity strictness until only one result remains.</li> 
+                            </ul>
+                        </div>
+                    </button>
+                    <button onclick="document.location='https://github.com/ThomasBurgess2000/PiFolio-Monitor'">
+                        <div class="col boxed">
+                            <h3><b>PiFolio-Monitor</b> Python (WIP)</h3>
+                            <hr>
+                            <ul>
+                                <li>Allows you to visualize your portfolio value changes on your Raspberry Pi Sense HAT.</li>
+                                <li>Whenever you toggle the joystick, it will light up showing you how the value of your portfolio has changed throughout the day.</li>
+                                <li>Able to convey portfolio price changes at a glance using only an 8x8 light matrix through clever display technique.</li>
+                            </ul>
+                        </div>
+                    </button>
+                </div>
+            </div>
+            
             
         </div>
     </div>

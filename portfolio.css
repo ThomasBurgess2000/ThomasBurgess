@@ -24,21 +24,13 @@ max-width: 2160px;
     to {background-size: 700px,1000px;background-position: 50% 5%, 50% 0%;}
 }
 
-.navbar {
-    margin-bottom:0px;
-    font-size:1.2em;
-}
 
-.container-fluid{
-    overflow: hidden;
-}
 
-/* navbar */
 .navbar-default {
     background-color: white;
     border-color: white;
 }
-/* Title */
+Title
 .navbar-default .navbar-brand {
     color: black;
 }
@@ -58,13 +50,42 @@ h1 {
     padding-top:10px;
 }
 
-p {
+.pCode {
     padding-left:50px;
     padding-right:50px;
-    padding-bottom:20px;
-    font-size:1.5em
+    padding-bottom:10px;
+    padding-top:10px;
+    font-size:1.5em;
+    text-align:center;
+    
 }
 
-.centered {
-    text-align:center;
+.codePara {
+    font-family:monospace;
+    margin:auto;
+    background-color:#2E282A;
+    color:white;
+    border-width:15px 0px 0px 0px;
+    border-style: solid ;
+    border-color: rgb(23,190,187);
+    border-radius: 1% 1% 0% 0%;
+    width:800px;
+    max-width:95%;
+    box-shadow: 5px 5px rgba(23,190,187, 0.4),
+              10px 10px rgba(23,190,187, 0.3),
+              15px 15px rgba(23,190,187, 0.2),
+              20px 20px rgba(23,190,187, 0.1),
+              25px 25px rgba(23,190,187, 0.05);
+}
+
+.boxed {
+    margin:10px;
+    padding:10px;
+}
+
+button {
+    margin: 15px;
+    text-align:left;
+    background-color:white;
+    border-style:solid;
 }
