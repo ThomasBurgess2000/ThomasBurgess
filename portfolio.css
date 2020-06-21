@@ -29,11 +29,14 @@ max-width: 2160px;
 
 .navbar {
     min-height:30px;
+    padding-top:0px;
+    padding-bottom:0px;
 }
 
 .navbar-default {
     background-color: white;
     border-color: white;
+    
 }
 Title
 .navbar-default .navbar-brand {
@@ -44,10 +47,9 @@ Title
     color: #7a7474;
 }
 /* Link */
-.navbar-default .navbar-nav > li > a {
+.navbar-light .navbar-nav > li > a {
     color: black;
-    padding-top:10px;
-    padding-bottom:10px;
+    
 }
 
 h1 {
