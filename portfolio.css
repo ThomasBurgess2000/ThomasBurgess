@@ -22,7 +22,7 @@
     background-size: cover;
     margin:auto;
     max-width: 2160px;
-    margin-top:10px;
+    padding-top:10px;
   }
 
   @keyframes animateJet{
