@@ -1,24 +1,47 @@
-#jetDiv {
+/* #jetDiv {
     -webkit-backface-visibility: hidden;
     -webkit-transform: translateZ(0) scale(1.0, 1.0);
     transform: translateZ(0);
-  }
+    font-family:'Work Sans',Impact,Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  } */
   
-  #jet {
-    animation: animateJet forwards 2s ease-in;
-    display:block;
-    width:100%;
-    transform:scale(0.1,0.1)
+  .parallax {
+    /* The image used */
+    background-image: url("jet.png");
+  
+    /* Animation */
+    animation: animateJet forwards 3s ease-in;
+
+    /* Set a specific height */
+    min-height: 577px; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: 50% 10%;
+    background-repeat: no-repeat;
+    background-size: cover;
+
   }
+
   @keyframes animateJet{
-      100% {
-        transform: scale(1,1);
-      }
+      from {background-size:20px;}
+      to {background-size: 1951px;}
   }
-  #topText{
+  /* #topText{
     position: absolute;
-    top: 40%;
+    top: 15%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-size:50vw;
+    font-size:3vw;
+    text-align:center;
   }
+  #bottomText{
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size:3vw;
+    text-align:center;
+  } */
+
+  
