@@ -7,25 +7,26 @@
   
   .parallax {
     /* The image used */
-    background-image: url("jet.png");
+    background-image: url("jet.png"),url("rays.png");
   
     /* Animation */
-    animation: animateJet forwards 3s ease-in;
+    animation: animateJet forwards 2s ease-in;
 
     /* Set a specific height */
-    min-height: 577px; 
+    min-height: 400px;
   
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: 50% 10%;
     background-repeat: no-repeat;
     background-size: cover;
-
+    margin:auto;
+    max-width: 2160px;
   }
 
   @keyframes animateJet{
-      from {background-size:20px;}
-      to {background-size: 1951px;}
+      from {background-size:20px,0px;background-position: 50% 10%, 50% 100%;}
+      to {background-size: 80%,100%;background-position: 50% 10%, 50% 0%;}
   }
   /* #topText{
     position: absolute;
