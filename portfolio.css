@@ -1,57 +1,65 @@
-/* #jetDiv {
-    -webkit-backface-visibility: hidden;
-    -webkit-transform: translateZ(0) scale(1.0, 1.0);
-    transform: translateZ(0);
-    font-family:'Work Sans',Impact,Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  } */
+
   
-  .parallax {
-    /* The image used */
-    background-image: url("jet.png"),url("rays.png");
-  
-    /* Animation */
-    animation: animateJet forwards 2s ease-in;
+.parallax {
+/* The image used */
+background-image: url("jet.png"),url("rays.png");
 
-    /* Set a specific height */
-    min-height: 200px;
-  
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: 50% 10%;
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin:auto;
-    max-width: 2160px;
-  }
+/* Animation */
+animation: animateJet forwards 2s ease-in;
 
-  @keyframes animateJet{
-      from {background-size:20px,0px;background-position: 50% 10%, 50% 100%;}
-      to {background-size: 700px,1000px;background-position: 50% 5%, 50% 0%;}
-  }
+/* Set a specific height */
+min-height: 200px;
 
-  .navbar {
-      margin-bottom:0px;
-  }
+/* Create the parallax scrolling effect */
+background-attachment: fixed;
+background-position: 50% 10%;
+background-repeat: no-repeat;
+background-size: cover;
+margin:auto;
+max-width: 2160px;
+}
 
-  .container-fluid{
+@keyframes animateJet{
+    from {background-size:20px,0px;background-position: 50% 10%, 50% 100%;}
+    to {background-size: 700px,1000px;background-position: 50% 5%, 50% 0%;}
+}
+
+.navbar {
+    margin-bottom:0px;
+    font-size:1.2em;
+}
+
+.container-fluid{
     overflow: hidden;
-    padding: 0px;
-    }
-  /* #topText{
-    position: absolute;
-    top: 15%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size:3vw;
-    text-align:center;
-  }
-  #bottomText{
-    position: absolute;
-    top: 85%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size:3vw;
-    text-align:center;
-  } */
+}
 
-  
+/* navbar */
+.navbar-default {
+    background-color: white;
+    border-color: white;
+}
+/* Title */
+.navbar-default .navbar-brand {
+    color: black;
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+    color: #7a7474;
+}
+/* Link */
+.navbar-default .navbar-nav > li > a {
+    color: black;
+}
+
+h1 {
+    font-family: 'Work Sans', sans-serif;
+    text-align: center;
+    margin-top: 0px;
+    padding-top:10px;
+}
+
+p {
+    padding-left:40px;
+    padding-right:40px;
+    font-size:1.5em
+}
