@@ -116,6 +116,9 @@ h3 {
     .removeOnMobile {
         display:none;
     }
+    boxed {
+        width:100% !important
+    }
 }
 
 @media (max-width: 1400px) {
