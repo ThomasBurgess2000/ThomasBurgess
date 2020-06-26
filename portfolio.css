@@ -87,11 +87,11 @@ h1 {
               25px 25px rgba(23,190,187, 0.05);
 }
 
-.boxed {
+/* .boxed {
     margin:5px;
     padding:10px;
     width:40%;
-}
+} */
 
 
 
@@ -115,9 +115,6 @@ h3 {
 @media (max-width: 1400px) {
     .removeOnMobile {
         display:none;
-    }
-    boxed {
-        width:100% !important
     }
 }
 
