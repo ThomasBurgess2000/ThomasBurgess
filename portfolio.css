@@ -124,3 +124,12 @@ h3 {
         background-color: rgb(253, 249, 249);
     }
 }
+
+.row:before {
+    display: inline-block;
+}
+
+.row:after {
+    display: inline-block;
+}
+
