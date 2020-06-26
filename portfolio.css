@@ -22,7 +22,7 @@ margin:auto;
 max-width: 2160px;
 }
 
-@keyframes animateJet{
+@-webkit-keyframes animateJet{
     from {background-size:20px,0px;background-position: 50% 10%, 50% 100%;}
     to {background-size: 700px,1000px;background-position: 50% 5.5%, 50% 0%;}
 }
