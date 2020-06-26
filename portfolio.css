@@ -5,10 +5,10 @@
 background-image: url("jet.png"),url("rays.png");
 
 /* Animation */
-animation-name: animateJet;
-animation-fill-mode:forwards;
-animation-duration: 2s;
-animation-timing-function: ease-in;
+-webkit-animation-name: animateJet;
+-webkit-animation-fill-mode:forwards;
+-webkit-animation-duration: 2s;
+-webkit-animation-timing-function: ease-in;
 
 /* Set a specific height */
 min-height: 200px;
