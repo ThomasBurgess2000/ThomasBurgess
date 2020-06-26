@@ -24,7 +24,7 @@ max-width: 2160px;
 
 @-webkit-keyframes animateJet{
     0% {background-size:20px,0px;background-position: 50% 10%, 50% 100%;}
-    100% {background-size: 700px,1000px;background-position: 50% 5%, 50% 0%;}
+    100% {background-size: 700px,1000px;background-position: 50% 40px, 50% 30px;}
 }
 
 .navbar {
